@@ -42,31 +42,35 @@ Here is the schema and explanation of each variable in the files:
 |- portfolio.json  # data to process
 |- transcript.json  # data to process
 
-- Average of Person Age Who Completed an Offer per Offer Type.jpg
-- Count of Completed Offers per Offer.jpg
-- Count of Gender per Year.jpg
-- Count of Incompleted Offers per Offer.jpg
-- Count of New User per Month.jpg
-- Count of Offer per Channel.jpg
-- Count of Offer per Type.jpg
-- Count of User per Gender.jpg
-- Duration Average of Offer per Type.jpg
-- Histogram of Age.jpg
-- Histogram of Income.jpg
+- fig
+|- Average of Person Age Who Completed an Offer per Offer Type.jpg
+|- Count of Completed Offers per Offer.jpg
+|- Count of Gender per Year.jpg
+|- Count of Incompleted Offers per Offer.jpg
+|- Count of New User per Month.jpg
+|- Count of Offer per Channel.jpg
+|- Count of Offer per Type.jpg
+|- Count of User per Gender.jpg
+|- Duration Average of Offer per Type.jpg
+|- Test Confusion Matrix of - DT.jpg
+|- Test Confusion Matrix of - KNN.jpg
+|- Test Confusion Matrix of - LR.jpg
+|- Test Confusion Matrix of - RF.jpg
+|- Test Confusion Matrix of - SVC.jpg
+|- Top 10 Users of The Highest Collected Reward.jpg
+|- Train_Test Accuracy.jpg
+|- Histogram of Age.jpg
+|- Histogram of Income.jpg
+|- Relation between Age and Income.jpg
+|- Relation between Reward and Difficulty.jpg
+|- Sum of The Time Completed vs Incompleted Offers.jpg
+
+- shutterstock.jpg
 - pic1.png
 - pic2.png
 - README.md
-- Relation between Age and Income.jpg
-- Relation between Reward and Difficulty.jpg
 - Starbucks_Capstone_notebook.ipynb
-- Sum of The Time Completed vs Incompleted Offers.jpg
-- Test Confusion Matrix of - DT.jpg
-- Test Confusion Matrix of - KNN.jpg
-- Test Confusion Matrix of - LR.jpg
-- Test Confusion Matrix of - RF.jpg
-- Test Confusion Matrix of - SVC.jpg
-- Top 10 Users of The Highest Collected Reward.jpg
-- Train_Test Accuracy.jpg
+
 ```
 <br>
 
@@ -76,6 +80,7 @@ Here is the schema and explanation of each variable in the files:
 - Matplotlib
 - Itertools
 - Seaborn
+- sklearn
 
 ### Summary of The results of The analysis
 - The number of clients in the app has been rapidly in 2016 and 2017
@@ -85,7 +90,7 @@ Here is the schema and explanation of each variable in the files:
 - The discount offer is featured for a long duration compared to the other types.
 
 ### Medium Blog Post
-The link of my Medium blog post is []()
+The link of my Medium blog post is [https://mohammed-sadiq-alali.medium.com/starbucks-capstone-challenge-fd01b8d5abec](https://mohammed-sadiq-alali.medium.com/starbucks-capstone-challenge-fd01b8d5abec)
 
 ### Acknowledgements
 This project was completed as part for Udacity Data Science Nanodegree program. Also, the data set contains simulated data that was provided by the Starbucks rewards mobile app.
